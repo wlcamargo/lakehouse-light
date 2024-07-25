@@ -52,6 +52,11 @@ docker exec spark-master /bin/bash
 spark-submit /opt/spark-apps/sample_write_table.py 
 ```
 
+### Onde os Jars são salvos?
+```
+cd /opt/bitnami/spark/.ivy2/jars 
+```
+
 ## Conclusão
 Parabéns! Seu lakehouse light está pronto para o uso.
 
